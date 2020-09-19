@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'BowLite'
-  s.version          = '0.1.0'
+  s.version          = '0.2.0'
   s.summary          = 'A short description of BowLite.'
 
 # This description is used to generate tags and improve search results.
@@ -21,22 +21,26 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/Hai\ Feng\ Kao/BowLite'
+  s.homepage         = 'https://github.com/haifengkao/BowLite'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'Hai\ Feng\ Kao' => 'haifeng@cocoaspice.in' }
-  s.source           = { :git => 'https://github.com/Hai\ Feng\ Kao/BowLite.git', :tag => s.version.to_s }
+  s.author           = { 'Hai Feng Kao' => 'haifeng@cocoaspice.in' }
+  s.source           = { :git => 'https://github.com/haifengkao/BowLite.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '10.0'
+  s.osx.deployment_target  = '10.12'
+  s.swift_version = '5.1'
 
   s.source_files = 'BowLite/Classes/**/*'
-  
+
   # s.resource_bundles = {
   #   'BowLite' => ['BowLite/Assets/*.png']
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.dependency 'BowLiteCore'
+  s.dependency 'BowLiteEffects'
+  s.dependency 'BowLiteOptics'
 end

@@ -291,10 +291,16 @@
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-BowLite_Example/Pods-BowLite_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/BowLite/BowLite.framework",
+				"${BUILT_PRODUCTS_DIR}/BowLiteCore/BowLiteCore.framework",
+				"${BUILT_PRODUCTS_DIR}/BowLiteEffects/BowLiteEffects.framework",
+				"${BUILT_PRODUCTS_DIR}/BowLiteOptics/BowLiteOptics.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/BowLite.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/BowLiteCore.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/BowLiteEffects.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/BowLiteOptics.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
