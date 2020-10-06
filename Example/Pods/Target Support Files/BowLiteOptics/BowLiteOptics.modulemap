@@ -1,0 +1,6 @@
+framework module BowLiteOptics {
+  umbrella header "BowLiteOptics-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+framework module BowLite {
+  umbrella header "BowLite-umbrella.h"
+
+  export *
+  module * { export * }
+}
