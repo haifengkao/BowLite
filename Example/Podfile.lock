@@ -1,5 +1,5 @@
 PODS:
-  - BowLite (0.7.0):
+  - BowLite (0.8.0):
     - BowLiteCore
     - BowLiteEffects
     - BowLiteOptics
@@ -29,7 +29,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  BowLite: bb442e8592df15ec394ae23d82bda87617999a00
+  BowLite: 21e1ef875143dd20f68dd3f51e6b0973fecadab8
   BowLiteCore: 368aa9b108d6661987ed8a79ec7eff916fbbd094
   BowLiteEffects: 5622397facbdb384a5804303c8bfcd55ff74c2aa
   BowLiteOptics: 6072cf927f7be8857b29baa6800b2c4bf284acc6
