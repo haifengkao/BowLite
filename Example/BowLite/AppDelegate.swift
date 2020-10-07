@@ -2,8 +2,8 @@
 //  AppDelegate.swift
 //  BowLite
 //
-//  Created by Hai\ Feng\ Kao on 09/18/2020.
-//  Copyright (c) 2020 Hai\ Feng\ Kao. All rights reserved.
+//  Created by Hai Feng Kao on 09/18/2020.
+//  Copyright (c) 2020 Hai Feng Kao. All rights reserved.
 //
 
 import UIKit
