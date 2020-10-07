@@ -1,0 +1,6 @@
+framework module BowLiteEffects {
+  umbrella header "BowLiteEffects-umbrella.h"
+
+  export *
+  module * { export * }
+}
