@@ -1,6 +1,6 @@
 # BowLite
 
-[![CI Status](https://img.shields.io/travis/Hai\ Feng\ Kao/BowLite.svg?style=flat)](https://travis-ci.org/Hai\ Feng\ Kao/BowLite)
+[![CI Status](https://img.shields.io/travis/haifengkao/BowLite.svg?style=flat)](https://travis-ci.org/Hai Feng Kao/BowLite)
 [![Version](https://img.shields.io/cocoapods/v/BowLite.svg?style=flat)](https://cocoapods.org/pods/BowLite)
 [![License](https://img.shields.io/cocoapods/l/BowLite.svg?style=flat)](https://cocoapods.org/pods/BowLite)
 [![Platform](https://img.shields.io/cocoapods/p/BowLite.svg?style=flat)](https://cocoapods.org/pods/BowLite)
@@ -22,7 +22,7 @@ pod 'BowLite'
 
 ## Author
 
-Hai\ Feng\ Kao, haifeng@cocoaspice.in
+Hai Feng Kao, haifeng@cocoaspice.in
 
 ## License
 
