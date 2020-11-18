@@ -61,7 +61,7 @@
 		3BD0C370BBCEBDEA68B8EDBD969370EB /* mach_excServer.h in Headers */ = {isa = PBXBuildFile; fileRef = 95EBA869F84E7295A638C0466372EFF1 /* mach_excServer.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3D6A581E79FD9EAC1A948D8BC53F1EB0 /* QuickConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E22181F71EE1CB2F305583908A5F31C /* QuickConfiguration.swift */; };
 		3D9F3EA54760F426A372DC81BF5516BF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CE1860CAD8589AA2F93C4FAA6E74858 /* Foundation.framework */; };
-		41FA5D2680C2158C1119E9EAA1D2A014 /* BowLite-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E898121E3A657502C4A26A28AE80C9BF /* BowLite-dummy.m */; };
+		41FA5D2680C2158C1119E9EAA1D2A014 /* BowLite-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 362B0934025B7E22EC63BCABCB80D19E /* BowLite-dummy.m */; };
 		4203EF96811AE514D64AE069311B1575 /* AllPass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28D5B01F92AF1EC11F2B5207E9F50DFB /* AllPass.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
 		42F76698690916E0407F51610D829412 /* BeGreaterThan.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA96B62BFC48606161061F311694F615 /* BeGreaterThan.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
 		448F40FCDC68D0C11E6A091739B9F5A4 /* BowLiteOptics-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E22136FBC12266FD741AB96001BCA950 /* BowLiteOptics-dummy.m */; };
@@ -97,10 +97,10 @@
 		5D0EDDE0BFCAE4E717A47201CF2E9659 /* Array+Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3574F97E7C89E6D6B85D9F01FA1D215 /* Array+Utilities.swift */; };
 		5D4364F34871D3B68429B8D619AA653C /* EnvIOBindingOperator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4019A44EFE33A57504837C72C4835D4 /* EnvIOBindingOperator.swift */; };
 		5DE41B29A8D3D63C92E0F5BFFA932D5A /* NonEmptyArray+Applicative.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE3E495D927C28C0B2939B571A15710E /* NonEmptyArray+Applicative.swift */; };
+		5E533E6D0D42E5AA51F37E37E83E101E /* Headers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78891BC06917CFD64380380B7A4E97BA /* Headers.swift */; };
 		602E3758C0EF64AF6B7FCEA05BF5B9B9 /* Expectation.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF2594F936F96409BB85C0443A566351 /* Expectation.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
 		621CDCDF659F460E134A849D6C278792 /* Memoization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C71F08ADADAFF9879E85C7F8D50D9FD /* Memoization.swift */; };
 		62B49FECAE82928300D8455EB5D1A3F8 /* Eval+Monad.swift in Sources */ = {isa = PBXBuildFile; fileRef = 637518E845B95ACDD14052FCEB3F08C2 /* Eval+Monad.swift */; };
-		63CD976357F782D0067EFD34727FE14B /* Headers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D43F0685355D5DBEFD2E88AA7D8117A /* Headers.swift */; };
 		64E26D7D025AC4462DFA8BA66B38C9D8 /* HaveCount.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F4B4551245F7ECD9F9A79792CB1A24D /* HaveCount.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
 		652A56FAA311A824ACA3A8746C217842 /* StringInstances.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A071A8217C371D03E8F8A93CD73E2D1 /* StringInstances.swift */; };
 		65546F825BDC5F99783F10D09C512D91 /* BowLiteEffects-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DD198FA1218F2C2F5263A375D469D0F /* BowLiteEffects-dummy.m */; };
@@ -202,7 +202,7 @@
 		B79FC6E46F642C3FC74B3E6D9175B1AB /* SatisfyAllOf.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBA3E2F20F1C3608AF6BE99FA3DD5EAF /* SatisfyAllOf.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
 		B84EF8D9314E29FD70F3AB5A04E29BB8 /* NonEmptyArray+Traverse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E8617E962E840BBE59C39B2C0262C22 /* NonEmptyArray+Traverse.swift */; };
 		B91C982997DBDC37BF809FB914525A7C /* Writer+Functor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58052260438665F7E4021C92AFDDD4C0 /* Writer+Functor.swift */; };
-		B94904FD2A7E88F14E80853FE6A2502F /* BowLite-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5EFE56B47B843A819A9802C2B2A985FC /* BowLite-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B94904FD2A7E88F14E80853FE6A2502F /* BowLite-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 765D9FF4465A8F7E53EAF63D68F56B6C /* BowLite-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B9B90E5BDF183CC7EDA2C6B291CC8233 /* NonEmptyArray+Functor.swift in Sources */ = {isa = PBXBuildFile; fileRef = C20B2B016AC010C99F04EB713B7FCCFB /* NonEmptyArray+Functor.swift */; };
 		BDAD2E466876DE720D9D95A1236A8915 /* EnvIO+MonadDefer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AED16535AD9E32BA3010EB30AA30AEB /* EnvIO+MonadDefer.swift */; };
 		BE50D29CF3BFBAE944E2FB1912C98CAF /* IO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B889CC0DC580F22DCF1439552E61291 /* IO.swift */; };
@@ -407,9 +407,7 @@
 		14DB2047717E21446AA226CABE67A4FB /* Array+Functor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Array+Functor.swift"; path = "BowLiteCore/Classes/BowLiteCore/Data/Array/Array+Functor.swift"; sourceTree = "<group>"; };
 		152857953B3F7EA29A369B95E5643701 /* CwlBadInstructionException.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CwlBadInstructionException.swift; path = Carthage/Checkouts/CwlPreconditionTesting/Sources/CwlPreconditionTesting/CwlBadInstructionException.swift; sourceTree = "<group>"; };
 		154AE3C3F87732A601561C058ACA19B6 /* CwlMachBadInstructionHandler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CwlMachBadInstructionHandler.m; path = Carthage/Checkouts/CwlPreconditionTesting/Sources/CwlMachBadInstructionHandler/CwlMachBadInstructionHandler.m; sourceTree = "<group>"; };
-		1563EFE708A4C69D1D21533CB96F3D68 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		15967BA16D8E59CA70BF271AE5EF36F1 /* FailureMessage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FailureMessage.swift; path = Sources/Nimble/FailureMessage.swift; sourceTree = "<group>"; };
-		159A9D4A7CD36C16BDEF5CAD5C406E9E /* BowLite.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = BowLite.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		16617029EDD4E8E29BA1F613859ED61B /* EnvIO+Functor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "EnvIO+Functor.swift"; path = "BowLiteEffects/Classes/BowLiteEffects/EnvIO/EnvIO+Functor.swift"; sourceTree = "<group>"; };
 		167002A472D5328CCE67AE842442939C /* SuiteHooks.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SuiteHooks.swift; path = Sources/Quick/Hooks/SuiteHooks.swift; sourceTree = "<group>"; };
 		1913A4DCEF0F4C59B772E862F35A9D85 /* QCKDSL.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QCKDSL.h; path = Sources/QuickObjectiveC/DSL/QCKDSL.h; sourceTree = "<group>"; };
@@ -420,6 +418,7 @@
 		1E3FE848AD1DA3F7C9F49BD2D64B46F5 /* NimbleEnvironment.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NimbleEnvironment.swift; path = Sources/Nimble/Adapters/NimbleEnvironment.swift; sourceTree = "<group>"; };
 		1F550CCE5ED07550293FC5D2B97BB6CC /* Lens.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Lens.swift; path = BowLiteOptics/Classes/BowLiteOptics/Lens.swift; sourceTree = "<group>"; };
 		203963032E5BE48D8492A97C7C2AD7E7 /* SourceLocation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SourceLocation.swift; path = Sources/Nimble/Utils/SourceLocation.swift; sourceTree = "<group>"; };
+		209AC74EBFA5E35E124BB000AE7300A1 /* BowLite.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = BowLite.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		21AAA6E7F4D06EEC3CDC3FDC94A2DFCD /* Pods-BowLite_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BowLite_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		222281A6F2BA172AAF174BDAB0A24E75 /* World.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = World.swift; path = Sources/Quick/World.swift; sourceTree = "<group>"; };
 		240C81DA7EB5ED058F039CFCEB2749EC /* Store.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Store.swift; path = BowLiteCore/Classes/BowLiteCore/Data/Store/Store.swift; sourceTree = "<group>"; };
@@ -439,7 +438,6 @@
 		2C0729B6DB524BD575AF6FEF637718A3 /* Store+Comonad.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Store+Comonad.swift"; path = "BowLiteCore/Classes/BowLiteCore/Data/Store/Store+Comonad.swift"; sourceTree = "<group>"; };
 		2C8B8406AE75FE6548287215206663F5 /* AdapterProtocols.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AdapterProtocols.swift; path = Sources/Nimble/Adapters/AdapterProtocols.swift; sourceTree = "<group>"; };
 		2CC0DED3B8F6E60B605EEA295EB4A869 /* PostNotification.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PostNotification.swift; path = Sources/Nimble/Matchers/PostNotification.swift; sourceTree = "<group>"; };
-		2D43F0685355D5DBEFD2E88AA7D8117A /* Headers.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Headers.swift; path = BowLite/Classes/BowLite/BowLite/Headers.swift; sourceTree = "<group>"; };
 		2DF877061C8AD672676C9982BCC401F0 /* Validated+Applicative.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Validated+Applicative.swift"; path = "BowLiteCore/Classes/BowLiteCore/Data/Validated/Validated+Applicative.swift"; sourceTree = "<group>"; };
 		2E5B8B7AD8CCA5CA3FA87349B3598B48 /* Queue.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Queue.swift; path = BowLiteEffects/Classes/BowLiteEffects/Internal/Queue.swift; sourceTree = "<group>"; };
 		2F846C12994780321FEADCA71882938B /* Quick.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Quick.modulemap; sourceTree = "<group>"; };
@@ -450,7 +448,7 @@
 		3574A373219372E7D0C2570A9EC177D6 /* IO+ApplicativeError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "IO+ApplicativeError.swift"; path = "BowLiteEffects/Classes/BowLiteEffects/IO/IO+ApplicativeError.swift"; sourceTree = "<group>"; };
 		3587E7B2218831CE805CE3670E77B679 /* State+Monad.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "State+Monad.swift"; path = "BowLiteCore/Classes/BowLiteCore/Data/State/State+Monad.swift"; sourceTree = "<group>"; };
 		36060A22764008FB31ED931739357B33 /* BowLiteOptics.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BowLiteOptics.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		3874E3E9A0635125B720282ACABFE248 /* BowLite.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = BowLite.modulemap; sourceTree = "<group>"; };
+		362B0934025B7E22EC63BCABCB80D19E /* BowLite-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BowLite-dummy.m"; sourceTree = "<group>"; };
 		391E121032C0812BB7997F99C26843B5 /* Curry.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Curry.swift; path = BowLiteCore/Classes/BowLiteCore/Syntax/Curry.swift; sourceTree = "<group>"; };
 		399694284033BFA5EBD68F60B2DC3077 /* Nimble.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Nimble.debug.xcconfig; sourceTree = "<group>"; };
 		3C1D1A57AA8E36DA029028F7E94AE7C0 /* Pods-BowLite_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BowLite_Tests-umbrella.h"; sourceTree = "<group>"; };
@@ -502,7 +500,6 @@
 		5D7D4BE9877441D1E4BC83C2091EE47D /* CwlPreconditionTesting.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CwlPreconditionTesting.h; path = Carthage/Checkouts/CwlPreconditionTesting/Sources/CwlPreconditionTesting/include/CwlPreconditionTesting.h; sourceTree = "<group>"; };
 		5DEE4FAA70E67C6F006E40A2CB9C9BA0 /* BowLiteOptics-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BowLiteOptics-umbrella.h"; sourceTree = "<group>"; };
 		5E9187D79CEB913FEC8A2C730C26360C /* Pods-BowLite_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BowLite_Tests-Info.plist"; sourceTree = "<group>"; };
-		5EFE56B47B843A819A9802C2B2A985FC /* BowLite-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BowLite-umbrella.h"; sourceTree = "<group>"; };
 		5F2DF3F5BB79F68C7704A5EAF62741E8 /* EnvIO+ApplicativeError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "EnvIO+ApplicativeError.swift"; path = "BowLiteEffects/Classes/BowLiteEffects/EnvIO/EnvIO+ApplicativeError.swift"; sourceTree = "<group>"; };
 		5FC33CA0A8997B7A082C53CC02D588F6 /* IO+MonadDefer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "IO+MonadDefer.swift"; path = "BowLiteEffects/Classes/BowLiteEffects/IO/IO+MonadDefer.swift"; sourceTree = "<group>"; };
 		5FEB5AF9374D6074D8C8CD1472804ADD /* Either+Applicative.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Either+Applicative.swift"; path = "BowLiteCore/Classes/BowLiteCore/Data/Either/Either+Applicative.swift"; sourceTree = "<group>"; };
@@ -510,7 +507,6 @@
 		60998E659E8D4629DAA31AFB4BFD74C5 /* ElementsEqual.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ElementsEqual.swift; path = Sources/Nimble/Matchers/ElementsEqual.swift; sourceTree = "<group>"; };
 		615261655188139AC1857AC494D9E544 /* BowLite.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = BowLite.framework; path = BowLite.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		619FCDEFA3D16821B21BBDA30C3ABAC4 /* Composition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Composition.swift; path = BowLiteCore/Classes/BowLiteCore/Syntax/Composition.swift; sourceTree = "<group>"; };
-		6276015143E8F8A884D07FF36BFD7354 /* BowLite-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BowLite-prefix.pch"; sourceTree = "<group>"; };
 		637518E845B95ACDD14052FCEB3F08C2 /* Eval+Monad.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Eval+Monad.swift"; path = "BowLiteCore/Classes/BowLiteCore/Data/Eval/Eval+Monad.swift"; sourceTree = "<group>"; };
 		64F6BCF0A463C7B0C4CD71AA4736B981 /* Equal.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Equal.swift; path = Sources/Nimble/Matchers/Equal.swift; sourceTree = "<group>"; };
 		65FE1B524C70ABA57BA21804B6ACF1C4 /* Reverse.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Reverse.swift; path = BowLiteCore/Classes/BowLiteCore/Syntax/Reverse.swift; sourceTree = "<group>"; };
@@ -536,11 +532,14 @@
 		7498036F5CA14ED1B2A89BEA8C5BF6EC /* BowLiteEffects-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BowLiteEffects-prefix.pch"; sourceTree = "<group>"; };
 		756289A8AFEACAAF90A4A606D88C2C1A /* Callsite.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Callsite.swift; path = Sources/Quick/Callsite.swift; sourceTree = "<group>"; };
 		758103A40B8639E2B2534B9CCB93B794 /* ExampleHooks.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExampleHooks.swift; path = Sources/Quick/Hooks/ExampleHooks.swift; sourceTree = "<group>"; };
+		75C1EC8F1F28F27A3FF26B459002765B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		75F1591F302BBBABF8E2EC52601AAEE5 /* EnvIO+Monad.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "EnvIO+Monad.swift"; path = "BowLiteEffects/Classes/BowLiteEffects/EnvIO/EnvIO+Monad.swift"; sourceTree = "<group>"; };
+		765D9FF4465A8F7E53EAF63D68F56B6C /* BowLite-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BowLite-umbrella.h"; sourceTree = "<group>"; };
 		774CACAB9DE9C2208A286F6290FE7BAC /* Either+Monad.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Either+Monad.swift"; path = "BowLiteCore/Classes/BowLiteCore/Data/Either/Either+Monad.swift"; sourceTree = "<group>"; };
 		778181732A9C3164BEC2EFEC73150229 /* Array+Applicative.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Array+Applicative.swift"; path = "BowLiteCore/Classes/BowLiteCore/Data/Array/Array+Applicative.swift"; sourceTree = "<group>"; };
 		77B7B2E5DF63F99E798AB19B2F7E0BD1 /* Result+ApplicativeError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Result+ApplicativeError.swift"; path = "BowLiteCore/Classes/BowLiteCore/Data/Result/Result+ApplicativeError.swift"; sourceTree = "<group>"; };
 		7805BE45D27FE2B22E66B225F344C0DE /* BowLiteCore-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BowLiteCore-dummy.m"; sourceTree = "<group>"; };
+		78891BC06917CFD64380380B7A4E97BA /* Headers.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Headers.swift; path = BowLite/Classes/Headers.swift; sourceTree = "<group>"; };
 		78E4B4C2D8DD60E58CD6E0912BE64D40 /* Optional+Utilities.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Optional+Utilities.swift"; path = "BowLiteCore/Classes/BowLiteCore/Data/Optional/Optional+Utilities.swift"; sourceTree = "<group>"; };
 		7CE1860CAD8589AA2F93C4FAA6E74858 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		7E69F437763D90DFE6AB0A23C25B879F /* Traversal.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Traversal.swift; path = BowLiteOptics/Classes/BowLiteOptics/Traversal.swift; sourceTree = "<group>"; };
@@ -549,6 +548,8 @@
 		7FCDD52EEE49910DB6A12BD863E0E543 /* NonEmptyArray.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NonEmptyArray.swift; path = BowLiteCore/Classes/BowLiteCore/Data/NonEmptyArray/NonEmptyArray.swift; sourceTree = "<group>"; };
 		80114074D3794D186BFB80E951BF3FF3 /* EnvIO+MonadReader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "EnvIO+MonadReader.swift"; path = "BowLiteEffects/Classes/BowLiteEffects/EnvIO/EnvIO+MonadReader.swift"; sourceTree = "<group>"; };
 		809916D853F32626A0BFE87872A77F9E /* DispatchTimeInterval+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DispatchTimeInterval+Extensions.swift"; path = "BowLiteEffects/Classes/BowLiteEffects/Internal/DispatchTimeInterval+Extensions.swift"; sourceTree = "<group>"; };
+		80C00C20DE8F783FABE62A55BD0E0C2F /* BowLite.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = BowLite.modulemap; sourceTree = "<group>"; };
+		80C555F1B938D5570CF7414ACFAAAD5F /* BowLite.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BowLite.release.xcconfig; sourceTree = "<group>"; };
 		83D0EBE052816E566FDBFAC8EF95B7C6 /* Try.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Try.swift; path = BowLiteCore/Classes/BowLiteCore/Data/Try/Try.swift; sourceTree = "<group>"; };
 		840509B034DE3B49A7EE2E2E68DD1F54 /* Validated.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Validated.swift; path = BowLiteCore/Classes/BowLiteCore/Data/Validated/Validated.swift; sourceTree = "<group>"; };
 		851C0C2FB7F74764F23371202CCDF5C4 /* ErrorUtility.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ErrorUtility.swift; path = Sources/Quick/ErrorUtility.swift; sourceTree = "<group>"; };
@@ -561,7 +562,6 @@
 		8B48C1731C2CA3FA312B23F9B4C5F760 /* Pair.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Pair.swift; path = BowLiteCore/Classes/BowLiteCore/Data/Pair/Pair.swift; sourceTree = "<group>"; };
 		8BD227511BE40DAC18E91F5E6CE279E0 /* Writer+Applicative.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Writer+Applicative.swift"; path = "BowLiteCore/Classes/BowLiteCore/Data/Writer/Writer+Applicative.swift"; sourceTree = "<group>"; };
 		8DCF9EB3D7470B6D82D3C16A2A86BD5D /* Try+Functor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Try+Functor.swift"; path = "BowLiteCore/Classes/BowLiteCore/Data/Try/Try+Functor.swift"; sourceTree = "<group>"; };
-		8E0624392D36CCB00D77C05DCF4538CE /* BowLite.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BowLite.release.xcconfig; sourceTree = "<group>"; };
 		91EE62C3E1D6342CC9C53AEBB72CAADD /* BowLiteOptics.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = BowLiteOptics.framework; path = BowLiteOptics.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		926A59FD441CCDBFBB8333D90CDAC20E /* ToSucceed.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ToSucceed.swift; path = Sources/Nimble/Matchers/ToSucceed.swift; sourceTree = "<group>"; };
 		95E983930EB48B60E0ED8E8F02B986B7 /* Function+Applicative.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Function+Applicative.swift"; path = "BowLiteCore/Classes/BowLiteCore/Data/Function/Function+Applicative.swift"; sourceTree = "<group>"; };
@@ -572,7 +572,6 @@
 		9C71D6214D890EF86FA54AE223A883D4 /* Optional+FunctorFilter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Optional+FunctorFilter.swift"; path = "BowLiteCore/Classes/BowLiteCore/Data/Optional/Optional+FunctorFilter.swift"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9E6CCE1C0BEEB265650A1BBE3B04AB1F /* BoolInstances.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BoolInstances.swift; path = BowLiteCore/Classes/BowLiteCore/Instances/BoolInstances.swift; sourceTree = "<group>"; };
-		9EC2638CF281EA549D9444AAFC9D63B3 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		9F4B4551245F7ECD9F9A79792CB1A24D /* HaveCount.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HaveCount.swift; path = Sources/Nimble/Matchers/HaveCount.swift; sourceTree = "<group>"; };
 		9FBD5FE3643471E48D1C2801E97A5AC7 /* Closures.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Closures.swift; path = Sources/Quick/Hooks/Closures.swift; sourceTree = "<group>"; };
 		9FBEF5F04EDF2C79CF160940A1B406F3 /* Function+MonadReader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Function+MonadReader.swift"; path = "BowLiteCore/Classes/BowLiteCore/Data/Function/Function+MonadReader.swift"; sourceTree = "<group>"; };
@@ -593,6 +592,7 @@
 		AA76B7426A734E045EED0AE0A22CF210 /* Pods-BowLite_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BowLite_Example-Info.plist"; sourceTree = "<group>"; };
 		AB36A5BE06CD79FAE6ED2009C924D4CF /* NMBExpectation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NMBExpectation.swift; path = Sources/Nimble/Adapters/NMBExpectation.swift; sourceTree = "<group>"; };
 		AD56ECB35D34F12867603A76D0EFA75B /* BowLiteEffects.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BowLiteEffects.debug.xcconfig; sourceTree = "<group>"; };
+		AD82A7C16C4F5BF15E587556DD16AE44 /* BowLite-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BowLite-prefix.pch"; sourceTree = "<group>"; };
 		ADB0863675EE1C134681D7D6A66D468C /* CwlCatchException.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CwlCatchException.h; path = Carthage/Checkouts/CwlPreconditionTesting/Dependencies/CwlCatchException/Sources/CwlCatchExceptionSupport/include/CwlCatchException.h; sourceTree = "<group>"; };
 		AEB4755AAB22BCB99AF9D7930EA01B5F /* QuickSpecBase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QuickSpecBase.h; path = Sources/QuickObjCRuntime/include/QuickSpecBase.h; sourceTree = "<group>"; };
 		AF2E2CB33793723194534E6F2F3A0412 /* Expression.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Expression.swift; path = Sources/Nimble/Expression.swift; sourceTree = "<group>"; };
@@ -616,6 +616,7 @@
 		C20B2B016AC010C99F04EB713B7FCCFB /* NonEmptyArray+Functor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NonEmptyArray+Functor.swift"; path = "BowLiteCore/Classes/BowLiteCore/Data/NonEmptyArray/NonEmptyArray+Functor.swift"; sourceTree = "<group>"; };
 		C2A443AD1154A0420095C76D18397C41 /* NonEmptyArray+Foldable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NonEmptyArray+Foldable.swift"; path = "BowLiteCore/Classes/BowLiteCore/Data/NonEmptyArray/NonEmptyArray+Foldable.swift"; sourceTree = "<group>"; };
 		C2DF22B5EDF6E87C011BDF1A41695D18 /* Ior+Monad.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Ior+Monad.swift"; path = "BowLiteCore/Classes/BowLiteCore/Data/Ior/Ior+Monad.swift"; sourceTree = "<group>"; };
+		C3610FA839B69EE41331056A6D52ED14 /* BowLite.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BowLite.debug.xcconfig; sourceTree = "<group>"; };
 		C3E41720EA4C641A9E9E110AA649AF04 /* Nimble.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Nimble.modulemap; sourceTree = "<group>"; };
 		C470DF25EE0C555496CCCBC906C481DB /* Nimble-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Nimble-dummy.m"; sourceTree = "<group>"; };
 		C4C26EF681EA88313AFA43B88326463C /* Nimble.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Nimble.release.xcconfig; sourceTree = "<group>"; };
@@ -643,7 +644,6 @@
 		DA7E28654A9443A243FF122C6989ED8C /* DSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DSL.swift; path = Sources/Nimble/DSL.swift; sourceTree = "<group>"; };
 		DACB0BA369EB6771F117621BFEE27E99 /* World+DSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "World+DSL.swift"; path = "Sources/Quick/DSL/World+DSL.swift"; sourceTree = "<group>"; };
 		DBE65DED796DF8F0B3310D76C473BBB1 /* Array+Foldable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Array+Foldable.swift"; path = "BowLiteCore/Classes/BowLiteCore/Data/Array/Array+Foldable.swift"; sourceTree = "<group>"; };
-		DBEDFB5BE8B59096F20E06FDC62A82F5 /* BowLite.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BowLite.debug.xcconfig; sourceTree = "<group>"; };
 		DDBE8C2890590E8B991B89A49BB388B4 /* Pods_BowLite_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_BowLite_Tests.framework; path = "Pods-BowLite_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE0F4E7F66CFB59BEBBCA33E627B4C65 /* QuickSpec.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QuickSpec.h; path = Sources/QuickObjectiveC/QuickSpec.h; sourceTree = "<group>"; };
 		DE65CBBB24CBEB64FE7B507637C1704B /* Pods-BowLite_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BowLite_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
@@ -655,9 +655,9 @@
 		E5BE3BAB2D1E57A1ECC01B1CAFB0A825 /* QuickSpecBase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QuickSpecBase.m; path = Sources/QuickObjCRuntime/QuickSpecBase.m; sourceTree = "<group>"; };
 		E6A3BA796AF4229E7735016DF4E7CE00 /* Id+Monad.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Id+Monad.swift"; path = "BowLiteCore/Classes/BowLiteCore/Data/Id/Id+Monad.swift"; sourceTree = "<group>"; };
 		E87908427A78276933C076ACBF94129C /* NumberInstances.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NumberInstances.swift; path = BowLiteCore/Classes/BowLiteCore/Instances/NumberInstances.swift; sourceTree = "<group>"; };
-		E898121E3A657502C4A26A28AE80C9BF /* BowLite-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BowLite-dummy.m"; sourceTree = "<group>"; };
 		E8BBD4F6CBA42E63A3A999D0E4F0FCCF /* Try+Monad.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Try+Monad.swift"; path = "BowLiteCore/Classes/BowLiteCore/Data/Try/Try+Monad.swift"; sourceTree = "<group>"; };
 		E98D3A276E9FD747D813AE9C66BC6124 /* Functional.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Functional.swift; path = Sources/Nimble/Utils/Functional.swift; sourceTree = "<group>"; };
+		EA011149171538674B4A861EEDE41120 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		EA96B62BFC48606161061F311694F615 /* BeGreaterThan.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BeGreaterThan.swift; path = Sources/Nimble/Matchers/BeGreaterThan.swift; sourceTree = "<group>"; };
 		EB426F84E5370FDCEEC6F417397BC204 /* Store+ComonadStore.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Store+ComonadStore.swift"; path = "BowLiteCore/Classes/BowLiteCore/Data/Store/Store+ComonadStore.swift"; sourceTree = "<group>"; };
 		EBA3E2F20F1C3608AF6BE99FA3DD5EAF /* SatisfyAllOf.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SatisfyAllOf.swift; path = Sources/Nimble/Matchers/SatisfyAllOf.swift; sourceTree = "<group>"; };
@@ -683,12 +683,12 @@
 		F656456CBCB56A5578CC9723A1221B23 /* Eval+Applicative.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Eval+Applicative.swift"; path = "BowLiteCore/Classes/BowLiteCore/Data/Eval/Eval+Applicative.swift"; sourceTree = "<group>"; };
 		F7F93666DCE593BFBD91A8AFE0374DA3 /* Kleisli+IO.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Kleisli+IO.swift"; path = "BowLiteEffects/Classes/BowLiteEffects/Kleisli/Kleisli+IO.swift"; sourceTree = "<group>"; };
 		F81E653DEDC489DFFE5E3A4699812395 /* Pods-BowLite_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BowLite_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		F824D63ADED36061731A182407D8BEEE /* BowLite-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "BowLite-Info.plist"; sourceTree = "<group>"; };
 		F8D822D7011CFF96052C6F380811D5B2 /* BowLiteCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = BowLiteCore.framework; path = BowLiteCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA7205D2200C45F7A77226545E62AE0D /* Kleisli.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Kleisli.swift; path = BowLiteCore/Classes/BowLiteCore/Data/Kleilsi/Kleisli.swift; sourceTree = "<group>"; };
 		FAC818405134E1E3232F624B989998E7 /* NonEmptyArray+FunctorFilter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NonEmptyArray+FunctorFilter.swift"; path = "BowLiteCore/Classes/BowLiteCore/Data/NonEmptyArray/NonEmptyArray+FunctorFilter.swift"; sourceTree = "<group>"; };
 		FAFD49799C676142972721ED696BBACB /* ContainElementSatisfying.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ContainElementSatisfying.swift; path = Sources/Nimble/Matchers/ContainElementSatisfying.swift; sourceTree = "<group>"; };
 		FBB8D2AEFDFD734523CAA4041E4792A1 /* NSBundle+CurrentTestBundle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSBundle+CurrentTestBundle.swift"; path = "Sources/Quick/NSBundle+CurrentTestBundle.swift"; sourceTree = "<group>"; };
-		FBBB0459B4C1A384818078F48B6C201D /* BowLite-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "BowLite-Info.plist"; sourceTree = "<group>"; };
 		FC021F1E6578EE6BA02A8D9951C7E284 /* Predef.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Predef.swift; path = BowLiteCore/Classes/BowLiteCore/Syntax/Predef.swift; sourceTree = "<group>"; };
 		FC36B311417CEB457599D8F2010D83AE /* Quick-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Quick-dummy.m"; sourceTree = "<group>"; };
 		FC86821F4CEFCC7BA328EE58CFCF9462 /* Pods_BowLite_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_BowLite_Example.framework; path = "Pods-BowLite_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -871,7 +871,7 @@
 		0A90C78C3331C5CE201250CBD7115A2C /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				2F6DCD7CDC6566D1BC1A95CA56211495 /* BowLite */,
+				B19C88EEE6414D2F3C251AF53F50DF48 /* BowLite */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
@@ -973,17 +973,6 @@
 			);
 			name = "Support Files";
 			path = "../Target Support Files/Nimble";
-			sourceTree = "<group>";
-		};
-		2F6DCD7CDC6566D1BC1A95CA56211495 /* BowLite */ = {
-			isa = PBXGroup;
-			children = (
-				2D43F0685355D5DBEFD2E88AA7D8117A /* Headers.swift */,
-				AC3E871438F7A048A0A0C36E0B96B6F8 /* Pod */,
-				C8CB3E03E2DF6C3C41BB8A9DCDDE9C5D /* Support Files */,
-			);
-			name = BowLite;
-			path = ../..;
 			sourceTree = "<group>";
 		};
 		31F18AA9AC17158FD8E3BF0F984CD5AE /* BowLiteEffects */ = {
@@ -1210,29 +1199,15 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		AC3E871438F7A048A0A0C36E0B96B6F8 /* Pod */ = {
+		B19C88EEE6414D2F3C251AF53F50DF48 /* BowLite */ = {
 			isa = PBXGroup;
 			children = (
-				159A9D4A7CD36C16BDEF5CAD5C406E9E /* BowLite.podspec */,
-				1563EFE708A4C69D1D21533CB96F3D68 /* LICENSE */,
-				9EC2638CF281EA549D9444AAFC9D63B3 /* README.md */,
+				78891BC06917CFD64380380B7A4E97BA /* Headers.swift */,
+				EF29B7CFAE98F5DBAC77E46DE1F07CB7 /* Pod */,
+				EA931CEA01C767A8BE6BBCB657A8659F /* Support Files */,
 			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		C8CB3E03E2DF6C3C41BB8A9DCDDE9C5D /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				3874E3E9A0635125B720282ACABFE248 /* BowLite.modulemap */,
-				E898121E3A657502C4A26A28AE80C9BF /* BowLite-dummy.m */,
-				FBBB0459B4C1A384818078F48B6C201D /* BowLite-Info.plist */,
-				6276015143E8F8A884D07FF36BFD7354 /* BowLite-prefix.pch */,
-				5EFE56B47B843A819A9802C2B2A985FC /* BowLite-umbrella.h */,
-				DBEDFB5BE8B59096F20E06FDC62A82F5 /* BowLite.debug.xcconfig */,
-				8E0624392D36CCB00D77C05DCF4538CE /* BowLite.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/BowLite";
+			name = BowLite;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
@@ -1257,6 +1232,31 @@
 				13D234F97B3A2EFAFB5EE9CAB3637305 /* Quick */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		EA931CEA01C767A8BE6BBCB657A8659F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				80C00C20DE8F783FABE62A55BD0E0C2F /* BowLite.modulemap */,
+				362B0934025B7E22EC63BCABCB80D19E /* BowLite-dummy.m */,
+				F824D63ADED36061731A182407D8BEEE /* BowLite-Info.plist */,
+				AD82A7C16C4F5BF15E587556DD16AE44 /* BowLite-prefix.pch */,
+				765D9FF4465A8F7E53EAF63D68F56B6C /* BowLite-umbrella.h */,
+				C3610FA839B69EE41331056A6D52ED14 /* BowLite.debug.xcconfig */,
+				80C555F1B938D5570CF7414ACFAAAD5F /* BowLite.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/BowLite";
+			sourceTree = "<group>";
+		};
+		EF29B7CFAE98F5DBAC77E46DE1F07CB7 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				209AC74EBFA5E35E124BB000AE7300A1 /* BowLite.podspec */,
+				75C1EC8F1F28F27A3FF26B459002765B /* LICENSE */,
+				EA011149171538674B4A861EEDE41120 /* README.md */,
+			);
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		F52C6F3E6FED1E530C2800F0EE4EEA64 /* iOS */ = {
@@ -1728,7 +1728,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				41FA5D2680C2158C1119E9EAA1D2A014 /* BowLite-dummy.m in Sources */,
-				63CD976357F782D0067EFD34727FE14B /* Headers.swift in Sources */,
+				5E533E6D0D42E5AA51F37E37E83E101E /* Headers.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2052,70 +2052,6 @@
 			};
 			name = Debug;
 		};
-		196DFA3E4A09A28224918543529A1885 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_TESTABILITY = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"POD_CONFIGURATION_DEBUG=1",
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
-				MTL_FAST_MATH = YES;
-				ONLY_ACTIVE_ARCH = YES;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 5.0;
-				SYMROOT = "${SRCROOT}/../build";
-			};
-			name = Debug;
-		};
 		1D5151581A0B42C2AD05F43F8D22B6EF /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = C4C26EF681EA88313AFA43B88326463C /* Nimble.release.xcconfig */;
@@ -2182,7 +2118,7 @@
 		};
 		3B95C3505D443614B3BB39DF81288A76 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8E0624392D36CCB00D77C05DCF4538CE /* BowLite.release.xcconfig */;
+			baseConfigurationReference = 80C555F1B938D5570CF7414ACFAAAD5F /* BowLite.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -2282,6 +2218,67 @@
 			};
 			name = Debug;
 		};
+		6ACE01E101CD05C2D9274B28BE586706 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
 		7CD008B9A4F9E19EDD153BBC354CCC45 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = AD56ECB35D34F12867603A76D0EFA75B /* BowLiteEffects.debug.xcconfig */;
@@ -2349,7 +2346,7 @@
 		};
 		97B2F5E445C6F5650B5DF55A0EC2FB24 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DBEDFB5BE8B59096F20E06FDC62A82F5 /* BowLite.debug.xcconfig */;
+			baseConfigurationReference = C3610FA839B69EE41331056A6D52ED14 /* BowLite.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -2411,10 +2408,11 @@
 			};
 			name = Debug;
 		};
-		B01D14FDC83DCF9D4BE53066BEA96D05 /* Release */ = {
+		B1B259C5FB7465EF9C71163827046E70 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -2444,13 +2442,16 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_NS_ASSERTIONS = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
-					"POD_CONFIGURATION_RELEASE=1",
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
 					"$(inherited)",
 				);
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -2460,16 +2461,17 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
-			name = Release;
+			name = Debug;
 		};
 		BC2F9ACF6532E38BFD9609FF5AB4771F /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -2659,8 +2661,8 @@
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				196DFA3E4A09A28224918543529A1885 /* Debug */,
-				B01D14FDC83DCF9D4BE53066BEA96D05 /* Release */,
+				B1B259C5FB7465EF9C71163827046E70 /* Debug */,
+				6ACE01E101CD05C2D9274B28BE586706 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
